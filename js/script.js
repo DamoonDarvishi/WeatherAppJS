@@ -39,7 +39,6 @@ let getWeatherByCityName = async (city) => {
 //     console.log(daily)
 // }
 
-// getWeatherByCityName('New York')
 searchInp.addEventListener('keydown', async (e) => {
     if(e.keyCode === 13) {
         let weather = await getWeatherByCityName(searchInp.value)
